@@ -1,0 +1,394 @@
+    /*         Defaults */
+    * {
+        font-family:'Open Sans', sans-serif;
+        color: white;
+    }
+    body {
+        background:#97958B;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        font-size : 0.7rem;
+        line-height: 1.4rem;
+        min-width: 120px;
+    }
+    a {
+        color: white;
+    }
+    .button {
+        background:#97958B;
+        border: none;
+        padding: 3px 12px;
+    }
+    p {
+        /*         font-size: 0.9rem; */
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    h1 {
+        font-size: 1.3rem;
+        line-height: 1rem;
+        font-weight: 300;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+        /*         font-weight: 300; */
+        line-height: 2rem;
+    }
+    h4 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+    h5 {
+        text-transform: uppercase;
+    }
+    h6 {
+        font-size:0.7rem;
+    }
+    a:hover, .svg-inline--fa:hover {
+        text-decoration: none;
+        color: #4d4d4d;
+    }
+    .orange a:hover {
+        color: #f39980;
+        background: #943f27;
+    }
+    .menu a:hover {
+        color: #4d4d4d !important;
+    }
+    input, textarea {
+        border: 1px solid black;
+        margin: 5px 0px;
+        width: 250px;
+        padding: 8px 15px;
+        color: black;
+        font-size: 0.8rem;
+        border-radius: 0;
+    }
+    /*         Bootstrap */
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /*         Helpers */
+    .orange {
+        background:#CE5D3D;
+    }
+    .white {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .white h2, .white h4 {
+        color: #CE5D3D;
+    }
+    .active a {
+        color: #54534f !important;
+    }
+    .text-pad {
+        padding: 30px !important;
+    }
+    /*         Custom */
+    .lborder {
+        border-top: 3px solid white;
+        border-right: 3px solid white;
+        padding-top: 40px;
+        padding-right: 40px;
+        height: 90%;
+    }
+    .obox {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .kern {
+        letter-spacing: 1px;
+    }
+    .social {
+        padding-right: 5px;
+        display:inline-block;
+    }
+    .jumbo {
+        height: 500px;
+    }
+    .about .jumbo {
+        background-image: url('../img/image9.jpg');
+    }
+    .team .jumbo {
+        background-image: url('../img/image2.jpg');
+    }
+    .faq .jumbo {
+        background-image: url('../img/image10.jpg');
+    }
+    .faq .jumbo h2 {
+        font-size: 2rem;
+    }
+    .contact .jumbo {
+        background: white;
+        height: 550px;
+    }
+    .faqs li {
+        padding: 15px 15px 10px 15px;
+        border: 2px solid white;
+        margin-bottom: 15px;
+        /*         width: 80%;
+        margin-left:10%; */
+    }
+    .faqs li h3 {
+        text-transform: uppercase;
+    }
+    .faqs li p {
+        padding: 10px 10px 5px 10px;
+    }
+    .faqs li h5 {
+        cursor: pointer;
+    }
+    .faqs li h5:hover {
+        color: #4d4d4d;
+    }
+    .hear {
+        list-style: disc;
+    }
+    .hear li {
+        font-size:1.1rem;
+        font-weight: 300;
+        margin-left:20px;
+        line-height: 2rem;
+    }
+    .title {
+        position: absolute;
+        left: 110px;
+        top: 0px;
+    }
+    .title h2 {
+        font-size: 1.1rem;
+        line-height: 1rem;
+        font-weight: 300;
+    }
+    /*     .logo {
+        width: 80px;
+    } */
+    .title-small h2 {
+        font-size: 0.85rem;
+        line-height: 0.7rem;
+        font-weight: 300;
+    }
+    .phone-number {
+        color: white;
+        /*         position:absolute;
+        bottom: 10px; */
+        letter-spacing: 1px;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .mobile-logo {
+        width: 70px;
+    }
+    .title-small {
+        position: absolute;
+        left: 110px;
+        top: 5px;
+    }
+    .title-small h1 {
+        font-size: 0.9rem;
+        line-height: 0.7rem;
+    }
+    .mobile-header {
+        display:none;
+    }
+    .mobile-header .col-10 {
+        /*         padding-left:30px !important; */
+    }
+    /* .col-1 .menu {
+    margin-top: -20px;
+} */
+    .full-header .menu {
+        width: 230px;
+        position: absolute;
+        right: 0;
+    }
+    .menu li {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        font-weight: 300;
+    }
+    .menu-button {
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+        font-size: 20px;
+    }
+    .mobile-menu {
+        height:0;
+        overflow: hidden;
+    }
+    .mobile-menu li {
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+        padding-left: 20px;
+    }
+    .footer h6 {
+        /*         margin-left: 40px; */
+        font-weight:300;
+    }
+    .site-image {
+        padding-left: 0;
+    }
+    .submit-button {
+        background:#CE5D3D;
+        border: none;
+        padding: 8px 15px;
+        position: absolute;
+        left: 310px;
+        top: 290px;
+    }
+    .contact-button {
+        display: inline;
+        position: absolute;
+        font-size: 1rem;
+        right: 30px;
+    }
+    .making {
+        background:#CE5D3D;
+        border: none !important;
+        text-align: center;
+    }
+
+    @media (max-width: 993px) {
+        .hide-med-down {
+            display: none;
+        }
+        .hide-line {
+            display: none;
+        }
+        .logo img {
+            width: 400px;
+        }
+    }
+    @media (max-width: 768px) {
+        .container {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width:90%;
+        }
+        h4 {
+            line-height: 1.5;
+        }
+        .hide-small-down {
+            display: none;
+        }
+        .show-small-down {
+            display: flex !important;
+        }
+        .lborder.pad {
+            margin: 0 40px;
+        }
+        .obox h2 {
+            line-height: 2rem;
+        }
+        .obox h4 {
+            font-size: 1rem;
+        }
+        .faq .jumbo {
+            height: 640px;
+        }
+        .about .jumbo {
+            height: 640px;
+        }
+        .team .jumbo {
+            height: 260px;
+        }
+        .contact .jumbo {
+            height: 870px;
+        }
+        .staff div {
+            margin-bottom: 20px;
+        }
+        .faq li h3, .faq li h5 {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        .text-pad h5 {
+            line-height: 1.5;
+        }
+        .lbpad {
+            padding-bottom: 10px;
+        }
+        .lbpad p {
+            font-size: 1rem !important;
+        }
+        .site-image {
+            padding: 0px;
+        }
+        .site-image img {
+            margin-bottom: 20px;
+        }
+        .footer .copyright {
+            margin-left: 0 !important;
+            text-align: center !important;
+        }
+        .footer .address {
+            text-align: center !important;
+        }
+    }
+    @media (max-width: 500px) {
+        .jumbo h2 {
+            font-size: 1.7rem;
+        }
+        .jumbo h4 {
+            font-size: 1.3rem;
+        }
+        .mobile-logo img {
+            width: 230px;
+        }
+        .submit-button {
+            position: static;
+        }
+        .hide-small {
+            display:none;
+        }
+        .lborder.text-pad {
+            margin-top: 30px;
+        }
+        .contact-button {
+            right: calc(50% - 62px);
+            margin-top: 50px;
+            width: 124px;
+        }
+        .making {
+            height: 100px;
+        }
+        .making h3 { font-size: 1.3rem !important;}
+    }
+    @media (min-width: 993px) {
+    }
+    @media (min-width: 768px) {
+        .show-small-up {
+            display: block;
+        }
+        .show-small-down {
+            display: none;
+        }
+        .hide-med-up {
+            display: none;
+        }
+    }
+    .loader {
+        position:absolute;
+        top:0;
+        left:0;
+        background:#97958B;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+    }
+    /* Suggestions */
+    .button {
+        background: #a94c31;
+    }
