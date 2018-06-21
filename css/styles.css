@@ -1,5 +1,5 @@
     /*         Defaults */
-    * {
+    h1, h2, h3, h4, h5, h6, p, li, button {
         font-family:'Open Sans', sans-serif;
         color: white;
     }
@@ -48,6 +48,8 @@
     }
     h5 {
         text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 300;
     }
     h6 {
         font-size:0.7rem;
@@ -88,7 +90,9 @@
         color: #CE5D3D;
     }
     .active a {
-        color: #54534f !important;
+        color: #CE5D3D !important;
+        font-weight: 400;
+            text-shadow: 0 0 5px rgba(200,200,200,0.5);
     }
     .text-pad {
         padding: 30px !important;
@@ -121,20 +125,28 @@
     .team .jumbo {
         background-image: url('../img/image2.jpg');
     }
+        .sites .jumbo {
+        background-image: url('../img/image9.jpg');
+    }
     .faq .jumbo {
         background-image: url('../img/image10.jpg');
     }
     .faq .jumbo h2 {
         font-size: 2rem;
     }
+    .faqs h5 span {color:#CE5D3D ; font-weight: 500;}
+    /*.faqs h5 span:hover {color:#fff ; font-weight: 500;}*/
+.heading h1 {position: absolute; top: -100px;}
+
     .contact .jumbo {
         background: white;
         height: 550px;
     }
-    .faqs li {
+    .faqs li, .site-title li {
         padding: 15px 15px 10px 15px;
         border: 2px solid white;
         margin-bottom: 15px;
+
         /*         width: 80%;
         margin-left:10%; */
     }
@@ -182,10 +194,12 @@
         /*         position:absolute;
         bottom: 10px; */
         letter-spacing: 1px;
-        font-size: 2rem;
-        font-weight: 300;
-        margin-bottom: 20px;
+        font-size: 1.9rem;
+        font-weight: 400;
+        /*margin-top: 30px;*/
+        line-height: 70px;
     }
+    .phone-number svg {    height: 0.8em;    margin-bottom: 2px;}
     .mobile-logo {
         width: 70px;
     }
@@ -207,14 +221,14 @@
     /* .col-1 .menu {
     margin-top: -20px;
 } */
-    .full-header .menu {
+/*    .full-header .menu {
         width: 230px;
         position: absolute;
         right: 0;
-    }
+    }*/
     .menu li {
         font-size: 1.1rem;
-        line-height: 1.6rem;
+        line-height: 1.9rem;
         font-weight: 300;
     }
     .menu-button {
