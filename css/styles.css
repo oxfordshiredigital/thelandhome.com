@@ -406,3 +406,12 @@
     .button {
         background: #a94c31;
     }
+.fa-map-marker-alt {
+margin-left: 3px;
+margin-right: 3px;
+}
+
+.fa-user, .fa-question-circle, .fa-envelope {
+    margin-left: 1px;
+margin-right: 1px;
+}
