@@ -126,6 +126,7 @@
         background-image: url('../img/image2.jpg');
     }
     .sites .jumbo {
+                height: 230px;
     }
     .faq .jumbo {
         background-image: url('../img/image10.jpg');
