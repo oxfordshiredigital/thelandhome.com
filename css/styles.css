@@ -203,6 +203,14 @@
     .mobile-logo {
         width: 70px;
     }
+.email {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 100;
+    /* margin-top: 30px; */
+    line-height: 20px;
+}
     .title-small {
         position: absolute;
         left: 110px;
