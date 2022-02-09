@@ -3,6 +3,7 @@ var menu = false;
 function toggleMenu() {
     if(!menu) {
         $(".mobile-menu").animate({
+            // Mobile menu height - increase if more menu options!
             height: "250px"
         }, 300, function() {
             // Animation complete.
