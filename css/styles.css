@@ -423,3 +423,10 @@ margin-right: 3px;
     margin-left: 1px;
 margin-right: 1px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .mobile-edit {
+        margin-top: 100px;
+    }
+  }

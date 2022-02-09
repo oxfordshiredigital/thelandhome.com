@@ -3,7 +3,7 @@ var menu = false;
 function toggleMenu() {
     if(!menu) {
         $(".mobile-menu").animate({
-            height: "170px"
+            height: "250px"
         }, 300, function() {
             // Animation complete.
         });
