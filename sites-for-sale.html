@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123442743-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-123442743-1');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MMS5BP9');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <title>The Land Home - Sites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Land Home - Sites">
+    <meta name="author" content="The Land Home">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous">
+    </script>
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div class="container sites">
+
+        <!-- Mobile Menu -->
+        <div class="row show-small-down mobile-header">
+            <div class="col-3">
+                <div class="mobile-logo">
+                    <img src="img/fulllogosmall.png" width="300" alt="Land home logo">
+                </div>
+            </div>
+            <div class="col-9">
+                <a href="tel:01869254220" class="menu-button" style="bottom: 45px;"><i class="fas fa-phone"></i></a>
+                <span class="menu-button" onclick="toggleMenu()"><i class="fas fa-bars"></i></span>
+            </div>
+            <div class="col-12 mobile-menu">
+                <br>
+                <ul class="menu">
+                    <li class="active"><a href="index.html">HOME</a>
+                    </li>
+                    <li><a href="team.html">TEAM</a>
+                    </li>
+                    <li> <a href="sites-for-sale.html">SITES FOR SALE</a>
+                    </li>
+                    <li> <a href="site-promotion.html">SITE PROMOTION</a>
+                    </li>
+                    <li> <a href="site-acquisition.html">SITES ACQUISITION</a>
+                    </li>
+                    <li> <a href="faq.html">FAQ</a>
+                    </li>
+                    <li> <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="row hide-small-down full-header">
+            <div class="col-xl-3 col-md-4">
+                <h5 style="margin-top: 5px;">MAKING</h5>
+                <h5>PLANNING</h5>
+                <h5 style="margin-bottom: 15px;">HAPPEN</h5>
+                <a href="tel:01869254220" class="phone-number" style="margin-top: 10px;"><i class="fas fa-phone"
+                        data-fa-transform="flip-h"></i> 01869 254220</a>
+                <br>
+                <a href="tel:07721420121" class="phone-number"><i class="fas fa-phone" data-fa-transform="flip-h"></i>
+                    07721 420121 - 24hrs</a>
+                <a href="mailto:office@thelandhome.com" class="phone-number" style="font-size: 1.1rem"><i
+                        class="fas fa-envelope" data-fa-transform="flip-h"></i> office@thelandhome.com</a>
+            </div>
+            <div class="col-xl-6 col-md-4 heading">
+                <div style="text-align: center;">
+                    <h1>The Land Home</h1>
+                    <img src="img/center-logo.png" width="300" alt="Land home logo">
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4">
+                <ul class="menu" style="text-align: right;">
+                    <li><a href="index.html">HOME &nbsp;<i class="fas fa-home"></i></a>
+                    </li>
+                    <li><a href="team.html">TEAM &nbsp;<i class="fas fa-user"></i></a>
+                    </li>
+                    <li class="active"><a href="sites-for-sale.html">SITES FOR SALE &nbsp;<i class="fas fa-map-marker-alt"></i></a></li>
+                        <li><a href="site-promotion.html">SITES UNDER PROMOTION&nbsp;<i
+                                    class="fas fa-map-marker-alt"></i></a>
+                        </li>
+                        <li><a href="site-acquisition.html">SITES ACQUISITION SERVICE&nbsp;<i
+                                    class="fas fa-map-marker-alt"></i></a>
+                        </li>
+                        <li><a href="faq.html">FAQ &nbsp;<i class="fas fa-question-circle"></i></a>
+                        </li>
+                        <li><a href="contact.html">CONTACT &nbsp;<i class="fas fa-envelope"></i></a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of menus -->
+
+        <br>
+
+        <div class="row jumbo">
+            <div class="col-12">
+            </div>
+            <div class="col-lg-4 col-11 lborder text-pad" style="height: auto;">
+                <!-- <h3><a href="#sale">View Sites for Sale ></a></h3> -->
+                <!-- <h3><a href="#current">View Current Sites ></a></h3> -->
+                <p class="show-small-down">
+
+                    The Land Home team are always acquiring and promoting new sites for our clients. A selection of our
+                    current sites under promotion and available for purchase are shown below.</p>
+            </div>
+            <div class="col-lg-7 hide-small-down">
+                <br>
+                <p style="font-size: 1.2rem; font-weight: 400; margin-left: 20px; margin-top: 8px;">
+
+
+                    The Land Home team are always acquiring and promoting new sites for our clients. A selection of our
+                    current sites under promotion and available for purchase are shown below.</p>
+            </div>
+        </div>
+        <br>
+
+        <a name="sale"></a>
+
+        <div class="row">
+            <div class="col-12" style="padding:0;">
+                <ul class="faqs">
+                    <li style="background:#CE5D3D; border: none;">
+                        <h3 id="sale">Sites for Sale</h3>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/Mollington.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>North Oxfordshire</h3>
+                        <h3>6 Acres of Land and Property</h3>
+                        <p>Prime village location on the edge of the Cotswolds Area of Outstanding Natural Beauty.</p>
+                        <h3>UNDER OFFER</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/HHimage3.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>PLANNING APPROVED OCT 2018</h3>
+                        <h3>6 Acres in Kent</h3>
+                        <p>We have gained planning permission for 43 homes on previously undeveloped land on the edge of
+                            a village location. There is provision for starter and affordable homes, executive houses
+                            and retirement bungalows for the benefit of the entire community.</p>
+                        <p>Planning granted <span style="font-size:1rem; color:#4d4d4d !important;">&nbsp;
+                                &#10004;</span> </p>
+                        <h3>SOLD 2020</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/property2.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>1 Acre in Kirtlington, Oxfordshire</h3>
+                        <p>Planning has been achieved to demolish an existing bungalow and build 5 new natural stone
+                            houses in this desirable Oxfordshire village. Total new build of 10,000 sq ft set in an acre
+                            of gardens with an additional half acre spinney.</p>
+                        <p>Planning granted <span style="font-size:1rem; color:#4d4d4d !important;">&nbsp;
+                                &#10004;</span> </p>
+                        <p>Guide price £1,500,000</p>
+                        <h3>SOLD</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/property3.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>3/4 of an Acre in Grandborough, Warwickshire</h3>
+                        <p>Planning has been granted for 4 new-build houses on previously undeveloped land on the
+                            outskirts of this delightful Warwickshire village. Featuring a 2-bed, a 3-bed and two 4-bed
+                            homes, all with stunning views over open rolling countryside, this development is only 7
+                            miles from the centre of Rugby and would make an excellent commuter base.</p>
+                        <p>Planning granted <span style="font-size:1rem; color:#4d4d4d !important;">&nbsp;
+                                &#10004;</span> </p>
+                        <p>Guide price £585,000</p>
+                        <h3>SOLD</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/property1.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>1/3 of an Acre in Shippon, Abingdon</h3>
+                        <p>Planning permission has been granted to demolish an existing property and build two new large
+                            detached luxury 5-bed houses of 2,750 sqft each. Houses to be built in mix of stone and
+                            brick with accommodation over 3 storeys. Shippon benefits from very good nearby schools and
+                            easy access to the A34 a mile away. Houses also have Permitted Development Rights attached.
+                            Didcot train station 10 minutes away.</p>
+                        <p>Planning granted <span style="font-size:1rem; color:#4d4d4d !important;">&nbsp;
+                                &#10004;</span> </p>
+                        <p>Guide price £750,000</p>
+                        <h3>AVAILABLE - FOR SALE</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/yewtree2.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>Yew Tree Courtyard
+                            <br>
+                            Nuneham Courtenay</h3>
+                        <p>Site comprising 6 houses and 4 two-bed flats.</p>
+                        <p>6 Individually Designed Houses, all built using locally sourced hand made bricks and tiles.
+                            <br><br>
+                            Heating provided by enviromentally friendly Airsource Heat Pumps.
+                            <br><br>
+                            Designed, Developed and Sold by a Director of the Land Home Ltd.
+                            <br><br>
+                            <h3>SOLD</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <div class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/sites/IOW1.jpg" alt="First slide">
+                                </div>
+
+                                <!--    
+                          <div class="carousel-item">
+                              <img class="d-block w-100" src="img/sites/property2.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                              <img class="d-block w-100" src="img/sites/property1.jpg" alt="Third slide">
+                          </div>
+                           -->
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>HAMPSHIRE</h3>
+                        <p>In partnership with Bloombridge Developments and following 3 years of public consultation,
+                            planning permission is being sought for a mixed development comprising of a care home,
+                            residential units, memorial gardens and improved parking provision for the local school.</p>
+                        <h3>PLANNING GRANTED OCT 2019 <span style="font-size:1rem; color:#4d4d4d !important;">&nbsp;
+                                &#10004;</span></h3>
+                        <br>
+                        <h3>OFFERS RECEIVED 2021 <span style="font-size:1rem; color:#4d4d4d !important;">&nbsp;
+                                &#10004;</span></h3>
+                    </div>
+                </div>
+            </div>
+            <!--  End of Site Information -->
+
+
+
+            <!-- Start of site information -->
+            <div class="col-md-12" style="margin-bottom: 30px;">
+                <div class="row">
+                    <div class="col-md-8 site-image">
+                        <img src="img/sites/oldsmithy.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 orange">
+                        <br>
+                        <h3>The Old Smithy
+                            <br>
+                            Nuneham Courtenay
+                        </h3>
+                        <p>A landmark historic Grade 2 Listed former blacksmith's house.
+                            <br><br>
+                            Ground Floor - A1 Shops, A2 Financial, A3 Food and Drink.
+                            <br>
+                            Upper Floors - B1 Business class, B8 Distribution.
+                            <br>
+                            Several parking spaces and rear courtyard.
+                            <br><br>
+                            Let on a 10 year Fully Repairing and Insuring Lease.
+                        </p>
+                        <h3>FREEHOLD FOR SALE</h3>
+                        <h3>PRICE ON APPLICATION</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End of site information -->
+
+
+
+
+        </div>
+
+        <br>
+
+        <div class="row footer">
+            <div class="col-6">
+                <h6>&copy; LAND HOME LTD 2022</h6>
+                <h6>Registered address - Half Mile House, Little Chesterton, Bicester, OX25 3PD</h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
